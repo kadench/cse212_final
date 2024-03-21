@@ -19,7 +19,7 @@ Website URL | Reason for Use
 [skyprep (quote)](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | quote used above
 
 ## Disclaimer 
-All code, teachings, examples problems to solve, etc. found in this repository are created to one, fulfil the requirements of this class's final, and two, provide information about important coding fundamentals. Any similarity to existing code is coincidental and not intended. All sources used for this assignment will be placed in the works cited section of this assignment (found above).
+All code, teachings, examples, problems to solve, etc. found in this repository are created to one, fulfil the requirements of this class's final, and two, provide information about important coding fundamentals. Any similarity to existing code is coincidental and not intended. All sources used for this assignment will be placed in the works cited section of this assignment (found above).
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me [here](mailto:han22047@byui.edu).
