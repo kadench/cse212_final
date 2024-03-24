@@ -14,7 +14,7 @@
 ## **Introduction | Trees (BST)**
 
 ## Contact
-Comments or questions are welcome! Please feel free to contact me through my school email [here](mailto:han22047@byui.edu).
+Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
 
 This is my final project for CSE 212 or Programming w/ Data Structures. This is a course taught at BYU-I.
 
