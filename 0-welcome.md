@@ -7,10 +7,10 @@
 
 | Content |
 -----------
-+ [Welcome (you're here)](README.md)
-+ [An Introduction to Queues](queue_module/1-queue.md)
-+ [An Introduction to Sets](set_module/2-set.md)
-+ [An Introduction to Trees](tree_module/3-tree.md)
++ [Welcome (you're here)](0-welcome.md)
++ [An Introduction to Queues](1-queue.md)
++ [An Introduction to Sets](2-set.md)
++ [An Introduction to Trees](3-tree.md)
 
 
 ## Works Cited

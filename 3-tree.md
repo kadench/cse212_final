@@ -4,10 +4,10 @@
 
 | Other Content | 
 -----------
-+ [Welcome](README.md)
-+ [An Introduction to Queues](queue_module/1-queue.md)
-+ [An Introduction to Sets](set_module/2-set.md)
-+ [An Introduction to Trees (you're here)](tree_module/3-tree.md)
++ [Welcome](0-welcome.md)
++ [An Introduction to Queues](1-queue.md)
++ [An Introduction to Sets](2-set.md)
++ [An Introduction to Trees (you're here)](3-tree.md)
 
 ## **Introduction | Trees (BST)**
 

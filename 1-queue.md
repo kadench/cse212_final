@@ -4,7 +4,7 @@
 
 | Other Content |
 -----------
-+ [Welcome](README.md)
++ [Welcome](0-welcome.md)
 + [An Introduction to Queues (you're here)](1-queue.md)
 + [An Introduction to Sets](2-set.md)
 + [An Introduction to Trees](3-tree.md)
