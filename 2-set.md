@@ -2,7 +2,7 @@
 
 #### By: Kaden Hansen
 
-| Other Content |
+Other Content |
 -----------
 + [Welcome](0-welcome.md)
 + [An Introduction to Queues](1-queue.md)

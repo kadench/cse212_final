@@ -5,7 +5,7 @@
 
 > “*Wisdom…. comes not from age, but from education and learning.*" - **Anton Chekhov**
 
-| Content |
+Content |
 -----------
 + [Welcome (you're here)](0-welcome.md)
 + [An Introduction to Queues](1-queue.md)
