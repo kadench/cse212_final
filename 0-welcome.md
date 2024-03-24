@@ -5,18 +5,19 @@
 
 > “*Wisdom…. comes not from age, but from education and learning.*" - **Anton Chekhov**
 
-Content |
------------
-+ [Welcome (you're here)](0-welcome.md)
-+ [An Introduction to Queues](1-queue.md)
-+ [An Introduction to Sets](2-set.md)
-+ [An Introduction to Trees](3-tree.md)
+|                  Content                  |
+|:-----------------------------------------:|
+| [Welcome (you're here)](0-welcome.md)     |
+| [An Introduction to Queues](1-queue.md)   |
+| [An Introduction to Sets ](2-set.md)      |
+| [An Introduction to Trees](3-tree.md)     |
 
 
 ## Works Cited
 Website URL | Reason for Use
--------- | --------
-[skyprep (quote)](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | quote used above
+:--------: | :--------:
+[Sky Prep](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | quote used above
+[Code Academy](https://www.codecademy.com/resources/docs/markdown/tables) | nav table formatting
 
 ## Disclaimer 
 All code, teachings, examples, problems to solve, etc. found in this repository are created to one, fulfil the requirements of this class's final, and two, provide information about important coding fundamentals. Any similarity to existing code is coincidental and not intended. All sources used for this assignment will be placed in the works cited section of this assignment (found above).
