@@ -32,7 +32,7 @@ dequeue <-- hot_dog_vendor_line = [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enque
 
 # Modifying Data in the Queue
 
-![enqueue and dequeue example gif](picture_files\enqueue_and_dequeue.gif)
+![enqueue_and_dequeue](https://github.com/kadench/cse212_final/assets/144969637/f2607f9a-5ef1-4669-a5b2-6f33d1bd34f1)
 
 ## Adding an item to the Queue
 
