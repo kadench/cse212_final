@@ -9,38 +9,58 @@
 | [An Introduction to Sets](2-set.md)       |
 | [An Introduction to Trees](3-tree.md)     |
 
-# **Introduction | Queues**
+# **Queues**
 
-What is a **queue**? In Python, a **queue** is used to execute multiple items, one at a time, in the order they arrived. This methodology is referred to as `FIFO`, or `First in, First Out`. This can quickly be visualized through the example hot dog line list below:
+What is a **queue**? In Python, a **queue** is used to execute multiple items, one at a time, in the order they arrived. This methodology is referred to as `FIFO`, or `First in, First Out`. This can quickly be visualized through a line of emojis. Each of them are patiently waiting their turn for a hot dog:
 
 ### **Queue Example:**
 
 ```python
-# exit                                                                    # enter 
-dequeue <-- hot_dog_vendor_line = [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
+   # exit                                               # enter 
+c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 ```
-`:)` is first in line, which means he gets the first hot dog. Then, `:)` leaves and everyone else in line moves up one.
+`:)` is first in line, which means he gets the first hot dog. Then, `:)` leaves and everyone else in line moves up one. It's exactly like how a line works in real life.
+
+### Common Methods Used in a Queue:
+| Function        | Definition                                | Performance |
+|:---------------:|:-----------------------------------------:|:-----------:|
+| `.enqueue(item)` | Add an item to the back of the queue.    | **O(1)**        |
+| `.dequeue()`     | Remove the first item from the queue.    | **O(1)**        |
+| `.empty()`       | Checks if the queue is empty.            | **O(1)**        |
+| `.front()`       | Returns a copy of the first item in the queue. | **O(1)**      |
+| `.rear()`        | Returns a copy of the last item in the queue. | **O(1)**      |
+| `.size()`        | Returns the size of the list as a number. | **O(1)**       |
 
 
-# Performance (Big O Notation) 
-## When to Use A **Queue**
-## When NOT to Use A **Queue**
 
-# Creating Queues
 
-# Accessing Data in the Queue
+## Queue Operations
 
-# Modifying Data in the Queue
+### Accessing Data in the Queue
+Even though a queue has similar structure to a list, some things are different. When we want to retrieve data from a list in python, we can just set a certain index to a variable. Doing so allows us to use it later:
 
-![enqueue_and_dequeue](https://github.com/kadench/cse212_final/assets/144969637/f2607f9a-5ef1-4669-a5b2-6f33d1bd34f1)
+```python
+foods = ['egg', 'salad', 'sandwich'] # make a list
+eaten_food = my_list[2] # set list item to the lunch variable
+print(f"I had {eaten_food} for lunch") # print the variable in a sentence
+```
 
-## Adding an item to the Queue
 
-### Enqueue
+## Modifying Data in the Queue
 
-## Deleting an item from the Queue
+### Adding an Item to the Queue
 
-### Dequeue
+#### Enqueue
+
+### Deleting an Item from the Queue
+
+#### Dequeue
+
+![enqueue_and_dequeue_small](https://github.com/kadench/cse212_final/assets/144969637/b66b37b2-1c12-42da-8c6c-b378feb9db7f)
+
+# When to Use A Queue
+
+# When ***NOT*** to Use A Queue
 
 # Practice Using Queue
 
