@@ -16,19 +16,22 @@ What is a **queue**? In Python, a **queue** is used to execute multiple items, o
 ### **Queue Example:**
 
 ```python
-   # exit                                               # enter 
+   # exit                                               # enter
 c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 ```
 `:)` is first in line, which means he gets the first hot dog. Then, `:)` leaves and everyone else in line moves up one. It's exactly like how a line works in real life.
 
-### Common Methods Used in a Queue:
-| Function        | Definition                                | Performance |
+### Common Classes/Method Used in a Queue:
+(Click the names of each item to see an example use case.)
+
+| Class/Method Name        | Definition                                | Performance |
 |:---------------:|:-----------------------------------------:|:-----------:|
-| `.enqueue(item)` | Add an item to the back of the queue.    | **O(1)**        |
-| `.dequeue()`     | Remove the first item from the queue.    | **O(1)**        |
-| `.empty()`       | Checks if the queue is empty.            | **O(1)**        |
-| `.front()`       | Returns a copy of the first item in the queue. | **O(1)**      |
-| `.rear()`        | Returns a copy of the last item in the queue. | **O(1)**      |
+| `Queue()`        | Makes a new queue                        | **O(1)**    |
+| `.enqueue(item)` | Add an item to the back of the queue.    | **O(1)**    |
+| `.dequeue()`     | Remove the first item from the queue.    | **O(1)**    |
+| `.empty()`       | Checks if the queue is empty.            | **O(1)**    |
+| `.front()`       | Returns a copy of the first item in the queue. | **O(1)**  |
+| `.rear()`        | Returns a copy of the last item in the queue. | **O(1)**   |
 | `.size()`        | Returns the size of the list as a number. | **O(1)**       |
 
 
@@ -37,26 +40,48 @@ c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 ## Queue Operations
 
 ### Accessing Data in the Queue
-Even though a queue has similar structure to a list, some things are different. When we want to retrieve data from a list in python, we can just set a certain index to a variable. Doing so allows us to use it later:
+Even though a **queue** has similar structure to a list, it's not the same thing. To show difference between a list and a **queue**, there is an example of what we can do with the data in the different data types. When we want to retrieve data from a python list, we have many options, but with a queue, we need only the resulting queue or its results after a run through. See the two examples given below:
 
+### Accessing Data in List Example:
 ```python
-foods = ['egg', 'salad', 'sandwich'] # make a list
-eaten_food = my_list[2] # set list item to the lunch variable
-print(f"I had {eaten_food} for lunch") # print the variable in a sentence
+# Make a list of food items and set the eaten_food variable to the third index of
+# the foods list
+
+foods = ['egg', 'salad', 'sandwich']
+eaten_food = my_list[2]
+
+# Print the list item in a sentence
+print(f"I had a {eaten_food} for lunch.")
+
+# ======================================
+# result: I had a sandwich for lunch.
 ```
 
+With a **queue**, we usually don't retrieve the input, but rather the output. This is because for every item in the queue, there is usually an action to be performed. There's no need to get an object at a certain index. We can print the **queue** after it is processed to show the results:
 
-## Modifying Data in the Queue
+### Accessing Data in Queue Example: 
+```python
+# Assuming the Queue class is defined with the methods described in the table above
 
-### Adding an Item to the Queue
+queue = Queue()
+queue.enqueue(138) # Adding an item to the queue
+queue.enqueue(218)
+queue.enqueue(363)
+queue.enqueue(417)
+queue.dequeue(218) # Removing an item from the queue
 
-#### Enqueue
+# Print all items in the queue with a for loop
+for x in queue:
+    print(x)
 
-### Deleting an Item from the Queue
-
-#### Dequeue
-
-![enqueue_and_dequeue_small](https://github.com/kadench/cse212_final/assets/144969637/b66b37b2-1c12-42da-8c6c-b378feb9db7f)
+# ============================================
+"""
+result:
+138
+363
+417
+"""
+```
 
 # When to Use A Queue
 
