@@ -169,49 +169,80 @@ As you can see, the program makes sure it has documents in the **queue** before 
 ```
 `.size()` is being used as a check here to ensure no more than 25% of the 60 max players are free users. This can be used as an incentive to have users pay for a better chance to play.
 # Practice Using Queue
+ Below is the `Queue()` class we will be using in the practice problems below:
+
+### `Queue()` Class:
+```python
+1 # This simple Queue class allows us to use the
+2 # methods and class names discussed on this page
+3 class Queue:
+4 
+5     # When Queue() is called, a new instance of Queue()
+6     # is created and a list named 'items' is used as its base.
+7     def __init__(self):
+8         self.items = []
+9 
+10    # When enqueue() is called, the requested enqueue item will
+11    # be appended to the queue
+12    def enqueue(self, item):
+13        self.items.append(item)
+14
+15    # When dequeue() is called, it removes the item in front of
+16    # the queue only if the list has data inside of it. This makes
+17    # use of the .empty() method
+18    def dequeue(self):
+19        if not self.empty():
+20            return self.items.pop(0)
+21        else:
+22            # (uncomment to use if needed)
+23            # print('The queue is empty') # Tell dev queue is
+24            # empty, then return None
+25            return None
+26
+27    # When empty() is called, it returns True if the queue is
+28    # empty and False when the queue is not 
+29    def empty(self):
+30        return len(self.items) == 0
+31
+32    # size() returns the size of the queue as a number
+33    def size(self):
+34        return len(self.items)
+35
+36    # Defining __iter__ here allows a Queue() the ability
+37    # to become iterable. This is because the yield keyword
+38    # creates a generator which returns each item in the queue
+39    # individually.  
+40    def __iter__(self):
+41        for item in self.items:
+42            yield item
+```
+> Download [queue_class.py](python_files\queue_class.py)
+
+Now that you've been introduced to **queues** and know a bit about what they are, we should do some practice problems to further get to know them. Down below, there are two problems that need solutions. We will go over the first one together, but I encourage you to do the second problem on your own.
 
 ### Example Problem Using a Queue (w/ Answer)
-Jack and Jill were working on a program together, but their code doesn't work. They both were trying to add :
+Jack and Jill were told to make a queue with five people and remove two of them. However, their current result doesn't work as intended:
 
 ```python
- 1 class Queue:
- 2     def __init__(self):
- 3         self.items = []
- 4 
- 5     def enqueue(self, item):
- 6         self.items.append(item)
- 7 
- 8     def dequeue(self):
- 9         if self.empty():
-10             return self.items.pop(0)
-11 
-12     def empty(self):
-13         return len(self.items) == 0
-14 
-15     def size(self):
-16         return len(self.items)
-17 
-18     def __iter__(self):
-19          for item in self.items:
-20               yield item
-21 
-22 queue = Queue()
-23 
-24 queue.dequeue()
-25 queue.dequeue()
-26 
-27 queue.enqueue('person1')
-28 queue.enqueue('person2')
-29 queue.enqueue('person3')
-30 queue.enqueue('person4')
-31 queue.enqueue('person5')
-32 
-33 for x in queue:
-34     print(x)
+1 queue = Queue()
+2
+3 queue.dequeue()
+4 queue.dequeue()
+5
+6 queue.enqueue('person1')
+7 queue.enqueue('person2')
+8 queue.enqueue('person3')
+9 queue.enqueue('person4')
+10 queue.enqueue('person5')
+11
+12 for x in queue:
+13    print(x)
 ```
-What could be wrong with this code snippet. To get a good idea before I reveal the answer
+What could be wrong with their code snippet? Looking at the [`Queue()`]
+
 
 ### Example Problem Using a Queue (Individually)
+To get an idea of your own before I reveal the answer, please look back at the [name table](1-queue.md#common-classesmethod-used-in-a-queue) shown at the beginning and look at the defined class above to see what each method doing.
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).

@@ -1,0 +1,2 @@
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\Qcomes not from age, but from education and learning.\"\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qcomes not from age, but from education and learning.\"\\E$"}
