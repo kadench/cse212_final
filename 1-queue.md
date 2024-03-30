@@ -223,7 +223,7 @@ Now that you've been introduced to **queues** and know a bit about what they are
 ## Practice Problems
 
 ### 1. Jill & Drew Have a Queue Issue (Guided Activity)
-Jill and Drew were told to make a queue consisting of five people. Two people exited the front of the line, leaving three. The duo needed to show the resulting queue. However, their current solution didn't work as intended:
+Jill and Drew were told to make a queue consisting of five people. Two people exited the front of the line, leaving three. The duo needed to implement this, as well as show the resulting queue. However, their current solution didn't work as intended:
 
 ```python
 1 queue.dequeue()
