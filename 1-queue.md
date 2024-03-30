@@ -129,8 +129,11 @@ Getting and using the length of a queue can be a very useful tool when setting c
 ```
 As you can see, the program makes sure it has documents in the **queue** before it tries to print anything. It'd be very annoying if this didn't happen. It's simple, but very important.
 
- Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items that don't have a certain importance. An example of this is a paid subscription that grants up to 45 paying members a shorter wait time in a line compared to 15 non-paying players that can join too with a standard wait time. The size checking portion of this scenario can be done with the example below (The advancement in line based on status isn't shown here for the sake of simplicity):
+ Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items that don't have a certain importance. An example of this is a paid subscription that grants up to 45 paying members a shorter wait time in a line compared to 15 non-paying players that can join too with a standard wait time. The size checking portion of this scenario can be done with the example below (The advancement in line based on status isn't shown here for 
+ the sake of simplicity):
+ 
  ### ***Queue `.size()` Example: (line 13)***
+ 
 ```python
 1 import random
 2 
@@ -168,6 +171,7 @@ As you can see, the program makes sure it has documents in the **queue** before 
 34 print(f"Paying members: {paying_members_count}, Non-Paying members: {non_paying_members_count}")
 ```
 `.size()` is being used as a check here to ensure no more than 25% of the 60 max players are free users. This can be used as an incentive to have users pay for a better chance to play.
+
 # Practice Using Queue
 Now that you've been introduced to **queues** and know a bit about what they are, we should do some practice problems to further get to know them. Down below, there are two problems that need solutions. We will go over the first one together, but I encourage you to do the second problem on your own.
 
