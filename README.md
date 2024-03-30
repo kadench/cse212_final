@@ -24,7 +24,6 @@ Website URL | Reason for Use
 :--------: | :--------:
 [Sky Prep](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | Quote used above
 [Code Academy](https://www.codecademy.com/resources/docs/markdown/tables) | Nav table formatting
-[YouTube Tutorial](https://www.codecademy.com/resources/docs/markdown/tables) | Adding GIF to .md
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
