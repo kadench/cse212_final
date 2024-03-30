@@ -99,7 +99,7 @@ If you're unsure why 138 (the first number added to the **queue**) was removed i
 
 ### **Queue Length**
 Getting and using the length of a queue can be a very useful tool when setting conditions, executing certain functions, or running a program. A good example that use something similar to the **queue's** `empty()` and `size()` methods is a printer. A printer receives documents in the order that they arrived, it prints them, and shuts off. The only reason the printer knows how to shut off is because of the check to make sure all documents are done printing. Below, you can see a mock printer that uses the `empty()` method to shut off when done. 
-### *Queue `empty()` Example:*
+### *Queue `.empty()` Example:*
 ```python
 1 printing_queue = Queue()  # Define a new printing queue
 2
@@ -152,7 +152,7 @@ As you can see, the program makes sure it has documents in the **queue** before 
 18          # pick player at random (for example purposes)
 19          member_choice = random.choice(['Paying', 'Non-Paying']) 
 20     else:
-21          member_choice = 'Paying' # The choice is automatically Paying
+21          member_choice = 'Paying' # else: the choice is automatically Paying
 22     
 23     # Find out the member choice and tick that certain member count up by 1
 24     if member_choice == 'Paying':
@@ -170,9 +170,9 @@ As you can see, the program makes sure it has documents in the **queue** before 
 `.size()` is being used as a check here to ensure no more than 25% of the 60 max players are free users. This can be used as an incentive to have users pay for a better chance to play.
 # Practice Using Queue
 
-## Example Problem Using a Queue (w/ Answer)
+### Example Problem Using a Queue (w/ Answer)
 
-## Example Problem Using a Queue (Individually)
+### Example Problem Using a Queue (Individually)
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
