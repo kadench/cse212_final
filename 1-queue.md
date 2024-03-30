@@ -99,7 +99,7 @@ If you're unsure why 138 (the first number added to the **queue**) was removed i
 
 ### **Queue Length**
 Getting and using the length of a queue can be a very useful tool when setting conditions, executing certain functions, or running a program. A good example that use something similar to the **queue's** `empty()` and `size()` methods is a printer. A printer receives documents in the order that they arrived, it prints them, and shuts off. The only reason the printer knows how to shut off is because of the check to make sure all documents are done printing. Below, you can see a mock printer that uses the `empty()` method to shut off when done. 
-### *Queue `.empty()` Example:*
+### *Queue `.empty()` Example: (line 7)*
 ```python
 1 printing_queue = Queue()  # Define a new printing queue
 2
@@ -130,7 +130,7 @@ Getting and using the length of a queue can be a very useful tool when setting c
 As you can see, the program makes sure it has documents in the **queue** before it tries to print anything. It'd be very annoying if this didn't happen. It's simple, but very important.
 
  Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items that don't have a certain importance. An example of this is a paid subscription that grants up to 45 paying members a shorter wait time in a line compared to 15 non-paying players that can join too with a standard wait time. The size checking portion of this scenario can be done with the example below (The advancement in line based on status isn't shown here for the sake of simplicity):
- ### ***Queue `.size()` Example:***
+ ### ***Queue `.size()` Example: (line 13)***
 ```python
 1 import random
 2 
@@ -171,6 +171,45 @@ As you can see, the program makes sure it has documents in the **queue** before 
 # Practice Using Queue
 
 ### Example Problem Using a Queue (w/ Answer)
+Jack and Jill were working on a program together, but their code doesn't work. They both were trying to add :
+
+```python
+ 1 class Queue:
+ 2     def __init__(self):
+ 3         self.items = []
+ 4 
+ 5     def enqueue(self, item):
+ 6         self.items.append(item)
+ 7 
+ 8     def dequeue(self):
+ 9         if self.empty():
+10             return self.items.pop(0)
+11 
+12     def empty(self):
+13         return len(self.items) == 0
+14 
+15     def size(self):
+16         return len(self.items)
+17 
+18     def __iter__(self):
+19          for item in self.items:
+20               yield item
+21 
+22 queue = Queue()
+23 
+24 queue.dequeue()
+25 queue.dequeue()
+26 
+27 queue.enqueue('person1')
+28 queue.enqueue('person2')
+29 queue.enqueue('person3')
+30 queue.enqueue('person4')
+31 queue.enqueue('person5')
+32 
+33 for x in queue:
+34     print(x)
+```
+What could be wrong with this code snippet. To get a good idea before I reveal the answer
 
 ### Example Problem Using a Queue (Individually)
 
