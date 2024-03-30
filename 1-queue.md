@@ -169,7 +169,9 @@ As you can see, the program makes sure it has documents in the **queue** before 
 ```
 `.size()` is being used as a check here to ensure no more than 25% of the 60 max players are free users. This can be used as an incentive to have users pay for a better chance to play.
 # Practice Using Queue
- Below is the `Queue()` class we will be using in the practice problems below:
+Now that you've been introduced to **queues** and know a bit about what they are, we should do some practice problems to further get to know them. Down below, there are two problems that need solutions. We will go over the first one together, but I encourage you to do the second problem on your own.
+
+ Below is the `Queue()` class we will be using in the practice problems:
 
 ### `Queue()` Class:
 ```python
@@ -218,31 +220,95 @@ As you can see, the program makes sure it has documents in the **queue** before 
 ```
 > Download [queue_class.py](python_files\queue_class.py)
 
-Now that you've been introduced to **queues** and know a bit about what they are, we should do some practice problems to further get to know them. Down below, there are two problems that need solutions. We will go over the first one together, but I encourage you to do the second problem on your own.
+## Practice Problems
 
-### Example Problem Using a Queue (w/ Answer)
-Jack and Jill were told to make a queue with five people and remove two of them. However, their current result doesn't work as intended:
+### 1. Jill & Drew Have a Queue Issue (Guided Activity)
+Jill and Drew were told to make a queue consisting of five people. Two people exited the front of the line, leaving three. The duo needed to show the resulting queue. However, their current solution didn't work as intended:
 
 ```python
-1 queue = Queue()
-2
-3 queue.dequeue()
-4 queue.dequeue()
-5
-6 queue.enqueue('person1')
-7 queue.enqueue('person2')
-8 queue.enqueue('person3')
-9 queue.enqueue('person4')
-10 queue.enqueue('person5')
-11
-12 for x in queue:
-13    print(x)
+1 queue.dequeue()
+2 queue.dequeue()
+3
+4 queue.enqueue('person1')
+5 queue.enqueue('person2')
+6 queue.enqueue('person3')
+7 queue.enqueue('person4')
+8 queue.enqueue('person5')
+9
+10 for x in queue:
+11    print(x)
 ```
-What could be wrong with their code snippet? Looking at the [`Queue()`]
+What's wrong with their code snippet? They've called both `enqueue()` and `dequeue()` the correct number of times. You may be able to spot a problem: they've called the methods in reverse order. They should **dequeue** two people *after* they have **enqueued** five people to the queue.
+
+### **Corrected Order:**
+
+```python
+1 # Add five people first...
+2 queue.enqueue('person1')
+3 queue.enqueue('person2')
+4 queue.enqueue('person3')
+5 queue.enqueue('person4')
+6 queue.enqueue('person5')
+7
+8 # ... then remove two
+9 queue.dequeue()
+10 queue.dequeue()
+11
+12 # Print each person in the queue
+13 for x in queue:
+14    print(x)
+```
+
+But wait... The program still crashes. Why? This is because they actually haven't made a new `Queue()`. All five people are standing in a crowd confused. Always remember to make a new queue before adding or removing items from it!
+
+### **Solution:**
+
+```python
+1 # Make a new instance of the Queue class first
+2 queue = Queue()
+3
+4 # Next add five people...
+5 queue.enqueue('person1')
+6 queue.enqueue('person2')
+7 queue.enqueue('person3')
+8 queue.enqueue('person4')
+9 queue.enqueue('person5')
+10
+11 # ...then remove two
+12 queue.dequeue()
+13 queue.dequeue()
+14
+15 # Print each person in the queue
+16 for x in queue:
+17    print(x)
+```
+> Download [1-guided_activity.py](python_files\1-guided_activity.py)
+
+---
+
+### 2. Movie Theater Queue Challenge (Individual Activty)
+
+**Objective:** Implement a queue system for a movie theater that does the following:
+
+- **Capacity:** The queue should only hold up to **10 people** who have valid tickets.
+- **Ticket Verification:** Deny entry to people **without a ticket** and advise them to **purchase a ticket** before they can join the queue.
+
+**Guidance:**
+
+- Refer to the [Queue Method Table](1-queue.md#common-classesmethod-used-in-a-queue) to better understand how to make the queue.
+- Use examples provided in previous sections as a guide.
+- The `random` module might come in handy if you need to simulate selecting individuals randomly.
+
+**Challenge Yourself:**
+
+Try to solve the problem on your own. Once completed or if you can't find a solution, compare your solution with mine to see how they compare.
+
+> **Download Solution:** [solution_2.py](python_files\1-individual_activity.py)
 
 
-### Example Problem Using a Queue (Individually)
-To get an idea of your own before I reveal the answer, please look back at the [name table](1-queue.md#common-classesmethod-used-in-a-queue) shown at the beginning and look at the defined class above to see what each method doing.
+
+## Conclusion
+That's it! Once you feel comfortable with your understanding of **queues**, you can move onto my other lessons on [sets](2-set.md) or [trees](3-tree.md).
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
