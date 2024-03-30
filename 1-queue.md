@@ -129,7 +129,7 @@ Getting and using the length of a queue can be a very useful tool when setting c
 ```
 As you can see, the program makes sure it has documents in the **queue** before it tries to print anything. It'd be very annoying if this didn't happen. It's simple, but very important.
 
- Moving on, a good example of the use of `.size()` 
+ Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items without a certain importance. An example of this is 
 # When to Use A Queue
 
 # When ***NOT*** to Use A Queue
