@@ -99,7 +99,9 @@ If you're unsure why 138 (the first number added to the **queue**) was removed i
 
 ### **Queue Length**
 Getting and using the length of a queue can be a very useful tool when setting conditions, executing certain functions, or running a program. A good example that use something similar to the **queue's** `empty()` and `size()` methods is a printer. A printer receives documents in the order that they arrived, it prints them, and shuts off. The only reason the printer knows how to shut off is because of the check to make sure all documents are done printing. Below, you can see a mock printer that uses the `empty()` method to shut off when done. 
+
 ### *Queue `.empty()` Example: (line 8)*
+
 ```python
 1 printing_queue = Queue()  # Define a new printing queue
 2
@@ -133,7 +135,7 @@ As you can see, the program makes sure it has documents in the **queue** before 
  the sake of simplicity):
  
  ### ***Queue `.size()` Example: (line 13)***
- 
+
 ```python
 1 import random
 2 
