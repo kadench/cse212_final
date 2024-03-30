@@ -29,7 +29,7 @@ c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 | [`Queue()`](1-queue.md#accessing-data-in-queue-example) | Makes a new queue | **O(1)**                            |
 | [`.enqueue(item)`](1-queue.md#accessing-data-in-queue-example) | Add an item to the back of the queue. | **O(1)** |
 | [`.dequeue()`](1-queue.md#accessing-data-in-queue-example) | Remove the first item from the queue.  | **O(1)**    |
-| [`.empty()`](1-queue.md#queue-empty-example-line-7) | Checks if the queue is empty. |                  **O(1)**          |
+| [`.empty()`](1-queue.md#queue-empty-example-line-8) | Checks if the queue is empty. |                  **O(1)**          |
 | [`.size()`](1-queue.md#queue-size-example-line-13) | Returns the size of the list as a number. | **O(1)**                 |
 
 
@@ -99,7 +99,7 @@ If you're unsure why 138 (the first number added to the **queue**) was removed i
 
 ### **Queue Length**
 Getting and using the length of a queue can be a very useful tool when setting conditions, executing certain functions, or running a program. A good example that use something similar to the **queue's** `empty()` and `size()` methods is a printer. A printer receives documents in the order that they arrived, it prints them, and shuts off. The only reason the printer knows how to shut off is because of the check to make sure all documents are done printing. Below, you can see a mock printer that uses the `empty()` method to shut off when done. 
-### *Queue `.empty()` Example: (line 7)*
+### *Queue `.empty()` Example: (line 8)*
 ```python
 1 printing_queue = Queue()  # Define a new printing queue
 2
