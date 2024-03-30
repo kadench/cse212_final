@@ -29,8 +29,8 @@ c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 | [`Queue()`](1-queue.md#accessing-data-in-queue-example) | Makes a new queue | **O(1)**                            |
 | [`.enqueue(item)`](1-queue.md#accessing-data-in-queue-example) | Add an item to the back of the queue. | **O(1)** |
 | [`.dequeue()`](1-queue.md#accessing-data-in-queue-example) | Remove the first item from the queue.  | **O(1)**    |
-| `.empty()`       | Checks if the queue is empty. | **O(1)**                                         |             |
-| `.size()`        | Returns the size of the list as a number. | **O(1)**                                           |
+| [`.empty()`](1-queue.md#queue-empty-example) | Checks if the queue is empty. |                  **O(1)**          |
+| [`.size()`](1-queue.md#queue-size-example) | Returns the size of the list as a number. | **O(1)**                 |
 
 
 
@@ -129,11 +129,45 @@ Getting and using the length of a queue can be a very useful tool when setting c
 ```
 As you can see, the program makes sure it has documents in the **queue** before it tries to print anything. It'd be very annoying if this didn't happen. It's simple, but very important.
 
- Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items without a certain importance. An example of this is 
-# When to Use A Queue
-
-# When ***NOT*** to Use A Queue
-
+ Moving on, a good example with the use of `.size()` is its use in a **priority queue**. A **priority queue** is almost the same as a normal **queue**. However, some items in this **queue** have a reason to be placed in front of other items that don't have a certain importance. An example of this is a paid subscription that grants up to 45 paying members a shorter wait time in a line compared to 15 non-paying players that can join too with a standard wait time. The size checking portion of this scenario can be done with the example below (The advancement in line based on status isn't shown here for the sake of simplicity):
+ ### ***Queue `.size()` Example:***
+```python
+1 import random
+2 
+3 queue = Queue()  # Create a new player queue
+4 
+5 MAX_QUEUE_SIZE = 60 # The player queue cannot exceed 60 players per server
+6 MAX_NON_PAYING_MEMBERS = 15 # 25% of the server's queue can be free members
+7  
+8 # The number of each member type in the queue
+9 paying_members_count = 0
+10 non_paying_members_count = 0
+11
+12 # As long as the queue size is less than 60
+13 while queue.size() < MAX_QUEUE_SIZE:
+14 
+15     # If there is still room for free members 
+16     if non_paying_members_count < MAX_NON_PAYING_MEMBERS:
+17
+18          # pick player at random (for example purposes)
+19          member_choice = random.choice(['Paying', 'Non-Paying']) 
+20     else:
+21          member_choice = 'Paying' # The choice is automatically Paying
+22     
+23     # Find out the member choice and tick that certain member count up by 1
+24     if member_choice == 'Paying':
+25          paying_members_count += 1
+26     else:
+27          non_paying_members_count += 1
+28     
+29     # Add the new member to the queue
+30     queue.enqueue(member_choice + ' Member')
+31 
+32 # Show the number of free and paying players in the queue.
+33 print(f"Total members in queue: {queue.size()}")
+34 print(f"Paying members: {paying_members_count}, Non-Paying members: {non_paying_members_count}")
+```
+`.size()` is being used as a check here to ensure no more than 25% of the 60 max players are free users. This can be used as an incentive to have users pay for a better chance to play.
 # Practice Using Queue
 
 ## Example Problem Using a Queue (w/ Answer)
