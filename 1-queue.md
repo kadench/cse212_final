@@ -30,7 +30,7 @@ c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 | [`.enqueue(item)`](1-queue.md#accessing-data-in-queue-example) | Add an item to the back of the queue. | **O(1)** |
 | [`.dequeue()`](1-queue.md#accessing-data-in-queue-example) | Remove the first item from the queue.  | **O(1)**    |
 | [`.empty()`](1-queue.md#queue-empty-example) | Checks if the queue is empty. |                  **O(1)**          |
-| [`.size()`](1-queue.md#queue-size-example) | Returns the size of the list as a number. | **O(1)**                 |
+| [`.size()`]([1-queue.md#queue-size-example](1-queue.md#queue-size-example-line-13)) | Returns the size of the list as a number. | **O(1)**                 |
 
 
 
