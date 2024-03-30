@@ -62,5 +62,6 @@ while movie_queue.size() < MAX_MOVIE_QUEUE_SIZE:
 # Show the people in the queue, ensuring that they all have tickets and that there's no more than 10 people in the queue.
 print(f"There are {movie_queue.size()} people waiting to see the movie.")
 
+# Print each person on a line with a corresponding number to visualize the new queue. 
 for i, person in enumerate(movie_queue):
     print(f"{i + 1}. {person}")
