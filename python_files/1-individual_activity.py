@@ -56,6 +56,7 @@ while movie_queue.size() < MAX_MOVIE_QUEUE_SIZE:
     if person == 'person_yes_ticket':
         movie_queue.enqueue(person)
     else:
+        # Tell the person without a ticket that they need one to see the movie.
         print("We're sorry, but you need to buy a valid ticket before you can enter the theater.")
 
 # Show the people in the queue, ensuring that they all have tickets and that there's no more than 10 people in the queue.
