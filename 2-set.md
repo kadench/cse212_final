@@ -143,7 +143,7 @@ Lets see an example of each `set()` method in action. Starting with `.add(item)`
 ```
 > Output:
 >
-> The length of the set is: 5
+> The length of the set is: 4
 
 The correct length was returned for use in the print statement.
 
