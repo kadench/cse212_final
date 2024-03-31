@@ -222,7 +222,7 @@ Now that you've been introduced to **queues** and know a bit about what they are
 41        for item in self.items:
 42            yield item
 ```
-> Download [queue_class.py](python_files\queue_class.py)
+> Download [queue_class.py](python_files/queue_class.py)
 
 ## Practice Problems
 
@@ -286,7 +286,7 @@ But wait... The program still crashes. Why? This is because they actually haven'
 16 for x in queue:
 17    print(x)
 ```
-> Download [1-guided_activity.py](python_files/1-guided_activity_solution.py)
+> Download [1-guided_activity_solution.py](python_files/1-guided_activity_solution.py)
 
 ---
 
@@ -307,7 +307,7 @@ But wait... The program still crashes. Why? This is because they actually haven'
 
 Try to solve the problem on your own. Once completed or if you can't find a solution, compare your solution with mine to see how they compare.
 
-> **Download Solution:** [solution_2.py](python_files/1-individual_activity_solution.py)
+> **Download Solution:** [1-individual_activity_solution.py](python_files/1-individual_activity_solution.py)
 
 
 

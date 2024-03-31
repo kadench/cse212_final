@@ -236,7 +236,7 @@ They're trying to combine the two sets into the `combined_set` by placing them i
 > {0, 1, 2, 3, 4, 5, 6, 7, 9, 10}
 >
 
-> Download [2-guided_activity_solution.py](python_files\2-guided_activity_solution.py)
+> Download [2-guided_activity_solution.py](python_files/2-guided_activity_solution.py)
 
 With this new solution, both `.union()` and the creation of a set is done correctly. When you work with sets in the future, make sure to make the right data type and format the **union** method the correct way.
 
