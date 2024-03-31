@@ -193,7 +193,7 @@ Jim and Jet are struggling to find a solution to the set problem they have been 
 > 
 > AttributeError: 'dict' object has no attribute 'union'
 > 
-If you've figured out a solution to the problem, well done! You can keep reading this solution or move onto the next. If you haven't spotted the solution, there's a sneaky hint at the beginning of this lesson that might help you.
+If you've figured out a solution to the problem, well done! You can keep reading this solution or move onto the next. If you haven't spotted the solution, there's a sneaky [hint](2-set.md#set-example-without-the-keyword) at the beginning of this lesson that might help you.
 
 With that out of the way, there's a few problems that we need to address:
 
@@ -223,13 +223,24 @@ They're trying to combine the two sets into the `combined_set` by placing them i
 2 even_number_set = {0, 2, 4, 6, 10}
 3 odd_number_set = {1, 3, 5, 7, 9}
 4 
+5
+6 # ...We removed the unneeded combined_set variable. 
+7
 5 # Combine the two sets into one
-6 combined_set = even_number_set.union(odd_number_set) # correct implementation of union
+6 combined_set = even_number_set.union(odd_number_set) # a correct implementation of union
 7 
 8 # Print the resulting set.
 9 print(combined_set)
 ```
-> Download [solution_file.py](python_files\2-guided_activity_solution.py)
+>
+> {0, 1, 2, 3, 4, 5, 6, 7, 9, 10}
+>
+
+> Download [2-guided_activity_solution.py](python_files\2-guided_activity_solution.py)
+
+With this new solution, both `.union()` and the creation of a set is done correctly. When you work with sets in the future, make sure to make the right data type and format the **union** method the correct way.
+
+---
 
 ### 2. [Second Problem Title (Individual Activity)]
 
