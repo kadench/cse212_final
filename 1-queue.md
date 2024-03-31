@@ -21,7 +21,7 @@ c|:] dequeue <-- [':)', 'o/', ':]', '(:', '[:', '\o'] <-- enqueue
 ```
 `:)` is first in line, which means he gets the first hot dog. Then, `:)` leaves and everyone else in line moves up one. It's exactly like how a line works in real life.
 
-### Common Classes/Method Used in a Queue:
+### Common Queue Methods:
 (Click the names of each item to see an example use case.)
 
 | Class/Method Name                                       | Definition                                | Performance |
