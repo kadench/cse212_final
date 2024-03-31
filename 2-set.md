@@ -31,15 +31,15 @@ example_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 ### Common Set Methods:
 (Click the names of each item to see an example use case.)
 
-| Class/Method Name                                       | Definition                                | Performance |
-|:-------------------------------------------------------:|:-----------------------------------------:|:-----------:|
-| [`set()`](2-set.md#accessing-data-in-set-example)       | Creates a new set                         | **O(1)**    |
-| [`.add(item)`](2-set.md#accessing-data-in-set-example)  | Adds a unique item to a set               | **O(1)**    |
-| [`.remove(item)`](2-set.md#accessing-data-in-set-example) | Removes a specified item from a set     | **O(1)**    |
-| [`.union(set)`](2-set.md#accessing-data-in-set-example) | Creates a set with the different items from both sets.  | **O(1)**    |
-| [`.intersection(set)`](2-set.md#accessing-data-in-set-example) | Creates a set with the common items from both sets.   | **O(1)**    |
-| [`.size()`](2-set.md#set-union-example-line-8)          | Returns the size of a set as an int       | **O(1)**    |
-| [`.member(item)`](2-set.md#accessing-data-in-set-example) | Checks if a specified item is in a set  | **O(1)**    |
+| Class/Method Name                                        | Definition                                             | Performance |
+|:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
+| [`set()`](2-set.md#additem-example)                      | Creates a new set                                      |   **O(1)**  |
+| [`.add(item)`](2-set.md#additem-example)                 | Adds a unique item to a set                            |   **O(1)**  |
+| [`.remove(item)`](2-set.md#removeitem-example)           | Removes a specified item from a set                    |   **O(1)**  |
+| [`.union(set)`](2-set.md#unionset-example)               | Creates a set with the different items from both sets. |   **O(1)**  |
+| [`.intersection(set)`](2-set.md#intersectionset-example) | Creates a set with the common items from both sets.    |   **O(1)**  |
+| [`.size()`](2-set.md#size-example)                       | Returns the size of a set as an int                    |   **O(1)**  |
+| [`.member(item)`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
 
 
 
