@@ -1,2 +1,4 @@
 {"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\Qcomes not from age, but from education and learning.\"\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qcomes not from age, but from education and learning.\"\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn Python, a \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is defined with curly braces { }.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QThis leads us into our next problem: the pair have .union() set up like this:\\E$"}
