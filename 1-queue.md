@@ -292,10 +292,12 @@ But wait... The program still crashes. Why? This is because they actually haven'
 
 ### 2. Movie Theater Queue Challenge (Individual Activity)
 
-**Objective:** Implement a queue system for a movie theater that does the following:
+A highly anticipated movie just hit your local area, and you're working to keep order within the bustling crowd. They're all loudly chattering and outside the doors waiting to come inside. You ready yourself for a long shift and walk out the door. "Attention!" you say. They all miraculously look up at you, quiet and waiting for your instruction. 
 
-- **Capacity:** The queue should only hold up to **10 people** who have valid tickets.
-- **Ticket Verification:** Deny entry to people **without a ticket** and advise them to **purchase a ticket** before they can join the queue.
+**Objective:** Implement a queue system for the movie theater that does the following:
+
+- **Capacity:** The queue should only hold up to **10 people** who have valid tickets at a time.
+- **Ticket Verification:** Deny theater entry to people **without a ticket** and advise them to **purchase a ticket** before they can join the queue.
 
 **Guidance:**
 
@@ -305,7 +307,7 @@ But wait... The program still crashes. Why? This is because they actually haven'
 
 **Challenge Yourself:**
 
-Try to solve the problem on your own. Once completed or if you can't find a solution, compare your solution with mine to see how they compare.
+Try to solve the problem on your own. Once completed or if you can't find a solution after **1 hour**, compare your solution with mine to see how they compare.
 
 > **Download Solution:** [1-individual_activity_solution.py](python_files/1-individual_activity_solution.py)
 

@@ -89,16 +89,33 @@ Lets see an example of each `set()` method in action. Starting with `.add(item)`
 
 `.union(set)` will combine two different sets, and skip over any duplicates found.
 
-### *`.union(set)` Example:* 
+### *`.union(set)` Example (long syntax):* 
 ```python
-1 # Define the current number set
+1 # Define a set containing numbers
 2 number_set = {1, 2, 3, 4, 5}
 3 
 4 # Define a new letter set
 5 letter_set = {"a", "b", "c", "d"}
 6
-7 # Combine both sets as a new set
+7 # Combine both sets as a new set (long syntax)
 8 united_set = number_set.union(letter_set)
+9
+10 # Print the resulting set
+11 print(united_set)
+```
+> 
+>
+> {1, 2, 3, 4, 5, 'a', 'b', 'c', 'd'}
+### *`.union(set)` Example (short syntax):* 
+```python
+1 # Define a set containing numbers 
+2 number_set = {1, 2, 3, 4, 5}
+3 
+4 # Define a new letter set
+5 letter_set = {"a", "b", "c", "d"}
+6
+7 # Combine both sets as a new set (short syntax)
+8 united_set = number_set | letter_set # (result_set = set1 | set2 ..)
 9
 10 # Print the resulting set
 11 print(united_set)
@@ -111,18 +128,35 @@ Lets see an example of each `set()` method in action. Starting with `.add(item)`
 
 ---
 
-`.intersection(set)` will put the common items of two specified sets into a new set, still skipping over any duplicates (if that item is in the intersected set already).
+`.intersection(set)` will put the common items of two (or more) specified sets into a new set, still skipping over any duplicates (if that item is in the intersected set already).
 
-### *`.intersection(set)` Example:* 
+### *`.intersection(set)` Example (long syntax):* 
 ```python
 1 # Define a set of numbers, incrementing by 1, that starts at 0
-2 counting_by_one = {0, 1, 2, 3, 4, 5}
+2 counting_by_ones = {0, 1, 2, 3, 4, 5}
 3 
 4 # Define a set of numbers, incrementing by 2, that starts at 0
-5 counting_by_two = {0, 2, 4, 6, 8}
+5 counting_by_twos = {0, 2, 4, 6, 8}
 6
-7 # Combine both sets as a new set
-8 set_overlap = counting_by_one.intersection(counting_by_two)
+7 # Combine both set's common items into a new set (long syntax)
+8 set_overlap = counting_by_ones.intersection(counting_by_twos)
+9
+10 # Print the resulting set
+11 print(set_overlap)
+```
+> 
+>
+> {0, 2, 4}
+### *`.intersection(set)` Example (short syntax):* 
+```python
+1 # Define a set of numbers, incrementing by 1, that starts at 0
+2 counting_by_ones = {0, 1, 2, 3, 4, 5}
+3 
+4 # Define a set of numbers, incrementing by 2, that starts at 0
+5 counting_by_twos = {0, 2, 4, 6, 8}
+6
+7 # Combine both set's common items into a new set (short syntax)
+8 set_overlap = counting_by_ones & counting_by_twos # (common_results = set1 & set2 ..)
 9
 10 # Print the resulting set
 11 print(set_overlap)
@@ -131,10 +165,10 @@ Lets see an example of each `set()` method in action. Starting with `.add(item)`
 >
 > {0, 2, 4}
 
-`counting_by_one` and `counting_by_two`'s overlapping numbers have been added to the new `set_overlap` set. 
+`counting_by_ones` and `counting_by_twos`'s overlapping numbers have been added to the new `set_overlap` set. 
 
 ## Useful Methods That Don't Come by Default
-> We will not be using these in the activities below. They're here for example purposes only.
+> We will **not** be using the methods discussed below in the practice problems. These methods don't come as default in Python.
 
 `.size()`, if implemented, will return the size of a set at a given point.
 
@@ -170,6 +204,8 @@ The correct length, `4`, was returned for use in the print statement.
 > 
 >
 > The number exists in the set.
+
+The number in the `set()` is correctly identified, and the corresponding message is returned.
 ## Practice Problems Using Set
 Now that you've been introduced to **sets** and have a basic understanding, let's do some practice problems.
 
@@ -200,7 +236,7 @@ With that out of the way, there's a few problems that we need to address:
 | Problems |
 |----------|
 + `combined_set` is defined as the wrong data type.
-+ `union` is formatted incorrectly.
++ `.union()` is formatted incorrectly.
 
 <br>
 
@@ -213,7 +249,7 @@ We need to remove the variable defining the combined list because using `.union(
 9 combined_set.union(even_number_set, odd_number_set)
 ```
 
-They're trying to combine the two sets into the `combined_set` by placing them in the parameter slots of union method and putting `combined_set` in front of the union method. However, this is not the correct way to do this. They need to set the `combined_set` variable to the new set created by the union. The correct way to implement this is: 
+They're trying to combine the two sets into the `combined_set` by placing them in the parameter slots of union method and putting `combined_set` in front of the union method. However, this is not the correct way to do this. They need to set the `combined_set` variable to the new set created by the union. A correct way to implement this is: 
 
 
 ### **Jim & Jet's Needed Solution:**
@@ -238,23 +274,28 @@ They're trying to combine the two sets into the `combined_set` by placing them i
 
 > Download [2-guided_activity_solution.py](python_files/2-guided_activity_solution.py)
 
-With this new solution, both `.union()` and the creation of a set is done correctly. When you work with sets in the future, make sure to make the right data type and format the **union** method the correct way.
+With this new solution, both `.union()` and `set()` are implemented correctly. When you work with sets in the future, make sure to use the right data type and format the union method the correct way.
 
 ---
 
-### 2. [Second Problem Title (Individual Activity)]
+### 2. A Chaotic College Picnic (Individual Activity)
 
-**Objective:** [Objective description]
+The local college planned a day at the park with different activities, people, and food. You were tasked to find people who wanted to participate in these activities. You make sure to mention that if they do come, they'll get free food. When the time came to start the picnic however, it's a mess. People don't show up, activities don't go to plan, and you need to think of a solution fast. You need to find a way to use all the **default** set methods to complete the exercise.  Below is this problem represented with sets.
+
+> **Download Problem:** [2-individual_activity_problem.py](python_files/2-individual_activity_problem.py)
+
+**Objective:** Create organized sets as described in the **above** document by doing the following:
 
 **Guidance:**
 
-- [Guidance]
++ **Follow Instructions:** Go through the **4 problems** given to solve in the activity above.
++ **Think Simple:** All the solutions to the problems are simple, and **example uses are in this lesson**.
 
 **Challenge Yourself:**
 
-[Challenge description]
+Try to solve the problem on your own. Once completed or if you can't find a solution after **1 hour**, compare your solution with mine to see how they compare.
 
-> **Download Solution:** [solution_2.py](python_files/2-individual_activity.py)
+> **Download Solution:** [2-individual_activity_solution.py](python_files\2-individual_activity_solution.py)
 
 ## Conclusion
 That's it! Once you feel comfortable with your understanding of **sets**, you can move onto my other lessons on [queues](1-queue.md) or [trees](3-tree.md).
