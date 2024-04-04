@@ -5,7 +5,7 @@
 |                Other Content              |
 |:-----------------------------------------:|
 | [Welcome](0-welcome.md)                   |
-| [An Introduction to Queues (you're here)](1-queue.md)   |
+| [An Introduction to Queues (you're here)](1-queue.md) |
 | [An Introduction to Sets](2-set.md)       |
 | [An Introduction to Trees](3-tree.md)     |
 
@@ -301,7 +301,7 @@ A highly anticipated movie just hit your local area, and you're working to keep 
 
 **Guidance:**
 
-- Refer to the [Queue Method Table](1-queue.md#common-classesmethod-used-in-a-queue) to better understand how to make the queue.
+- Refer to the [Queue Method Table](1-queue.md#common-queue-methods) to better understand how to make the queue.
 - Use examples provided in previous sections as a guide.
 - The `random` module might come in handy if you need to simulate selecting individuals randomly.
 
