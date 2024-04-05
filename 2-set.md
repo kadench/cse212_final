@@ -45,8 +45,6 @@ example_set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 | [`.size()`](2-set.md#size-example)                       | Returns the size of a set as an int                    |   **O(1)**  |
 | [`.member(item)`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
 
-
-
 ## Set Operations
 Lets see an example of each `set()` method in action. Starting with `.add(item)`
 ### *`.add(item)` Example:* 

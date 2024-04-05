@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="174.82468mm"
+   viewBox="0 0 300 174.82467"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="tree_example_labeled_structure.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\colored_tree_example.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-93.338095"
+     inkscape:cy="-96.520075"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g259790" />
+  <defs
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.6978819,-70.226359)">
+    <g
+       id="g259790"
+       transform="matrix(1.8376112,0,0,1.8376112,-4.2801643,-64.349927)"
+       inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\colored_tree_example.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="58.801033"
+         y="144.12125"
+         id="text54374"><tspan
+           sodipodi:role="line"
+           id="tspan54372"
+           style="stroke-width:0.264583"
+           x="58.801033"
+           y="144.12125"></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+         x="65.238838"
+         y="142.6281"
+         id="text76221"><tspan
+           sodipodi:role="line"
+           id="tspan76219"
+           style="stroke-width:0.264583"
+           x="65.238838"
+           y="142.6281"></tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 110.89249,132.17265 0.0149,5.70359"
+         id="path126533" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 114.25127,93.959721 4.74295,7.118389"
+         id="path33286" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.725998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 118.95319,100.67654 v 5.28648"
+         id="path30055" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 123.69796,93.959721 -4.74297,7.118389"
+         id="path33577" />
+      <path
+         id="path28608"
+         style="fill:#713737;fill-opacity:1;stroke:#642919;stroke-width:0.725521;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 126.79311,87.426573 6.55598,6.565537 -6.55598,6.56552 -6.55598,-6.565532 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="126.72257"
+         y="96.125687"
+         id="text11005"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan11003"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="126.72257"
+           y="96.125687">P</tspan></text>
+      <path
+         id="path33247"
+         style="font-variation-settings:normal;vector-effect:none;fill:#713737;fill-opacity:1;stroke:#642919;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 111.13539,87.36712 6.55597,6.565537 -6.55596,6.565523 -6.55598,-6.565535 z" />
+      <path
+         id="path33247-1"
+         style="font-variation-settings:normal;vector-effect:none;fill:#713737;fill-opacity:1;stroke:#642919;stroke-width:0.372483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 9.7676739,88.81603 3.3658401,3.370752 -3.3658351,3.370744 -3.3658453,-3.37075 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="111.0566"
+         y="96.066254"
+         id="text33251"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan33249"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="111.0566"
+           y="96.066254">P</tspan></text>
+      <path
+         id="path33247-0"
+         style="font-variation-settings:normal;vector-effect:none;fill:#d3a637;fill-opacity:1;stroke:#d39727;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 9.9254574,73.748021 6.1596496,6.168684 -6.1596406,6.168671 -6.159659,-6.168682 z"
+         inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\node_example.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.32724px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="9.8706074"
+         y="80.987228"
+         id="text33251-5"
+         transform="scale(0.9994702,1.0005301)"
+         inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\node_example.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan33249-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.32724px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="9.8706074"
+           y="80.987228">Node</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 118.95319,105.96302 0.0149,5.70358"
+         id="path125802" />
+      <path
+         id="path82601"
+         style="font-variation-settings:normal;vector-effect:none;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 118.95319,109.23309 6.55597,6.56554 -6.55597,6.56554 -6.55594,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="118.97514"
+         y="117.34785"
+         id="text82605"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan82603"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="118.97514"
+           y="117.34785">c</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 87.762516,127.22299 97.3656,117.192"
+         id="path35049-4-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 78.181429,117.09741 9.812073,9.82604"
+         id="path35047-9-2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 141.85218,105.93493 0.0149,5.70359"
+         id="path30148-2-8-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 96.8697,106.41604 45.45863,-0.0205"
+         id="path82629-0"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path82949"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 78.831705,110.02649 6.555969,6.56553 -6.555969,6.56554 -6.555941,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="78.876602"
+         y="118.14252"
+         id="text82953"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan82951"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="78.876602"
+           y="118.14252">s</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 87.993498,126.92345 v 5.27728"
+         id="path114483" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 149.69038,127.25057 9.60308,-10.03099"
+         id="path119409" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 140.10929,117.12499 10.20556,10.14562"
+         id="path119411"
+         sodipodi:nodetypes="cc" />
+      <path
+         id="path119413"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 159.43998,109.23371 6.55596,6.56554 -6.55596,6.56554 -6.55594,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="159.5273"
+         y="117.35018"
+         id="text119417"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan119415"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="159.5273"
+           y="117.35018">s</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 97.32664,105.95679 0.01486,5.70358"
+         id="path126044" />
+      <path
+         id="path30154-1-7"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 97.512113,109.23371 6.555967,6.56554 -6.555967,6.56554 -6.555941,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="97.522774"
+         y="117.34847"
+         id="text18757"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan18755"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="97.522774"
+           y="117.34847">c</tspan></text>
+      <path
+         id="path126242"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 141.86704,109.23371 6.55596,6.56554 -6.55596,6.56554 -6.55594,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="141.90106"
+         y="117.34846"
+         id="text126246"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan126244"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="141.90106"
+           y="117.34846">c</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 65.910009,132.65375 45.458631,-0.0205"
+         id="path126535"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 150.02636,126.3677 0.0148,5.70359"
+         id="path126537" />
+      <path
+         id="path6735-6"
+         style="font-variation-settings:normal;vector-effect:none;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 150.05155,129.92649 6.55599,6.56553 -6.55599,6.56554 -6.55598,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="150.15257"
+         y="137.44394"
+         id="text18757-9-19"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan18755-7-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="150.15257"
+           y="137.44394">gc</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 87.993498,126.92345 v 5.27728"
+         id="path140190" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 66.362884,132.19298 0.01486,5.70358"
+         id="path140512" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.697351,152.4108 9.603084,-10.031"
+         id="path157940" />
+      <path
+         id="path126539"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 66.384432,135.47089 6.555969,6.56554 -6.555969,6.56554 -6.555941,-6.56554 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="66.441422"
+         y="142.98541"
+         id="text18757-9-19-91"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan18755-7-1-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="66.441422"
+           y="142.98541">gc</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 47.116264,142.28522 9.812073,9.82604"
+         id="path157942" />
+      <path
+         id="path157944"
+         style="fill:#5b71ab;fill-opacity:1;stroke:#4e6194;stroke-width:0.725521;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 47.76654,135.47049 6.555969,6.56554 -6.555969,6.56553 -6.555941,-6.56553 z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 79.301196,157.356 0.01486,5.70359"
+         id="path157946" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 34.84492,157.84156 44.904378,-0.0205"
+         id="path157948"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.928333,152.11126 v 5.27728"
+         id="path157950" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 35.297719,157.38079 0.01486,5.70358"
+         id="path157952" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="47.795086"
+         y="143.57315"
+         id="text82953-5"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan82951-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="47.795086"
+           y="143.57315">s</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 42.689274,157.38079 0.01486,5.70358"
+         id="path157981" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 49.783863,157.38079 0.01486,5.70358"
+         id="path157983" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.928333,157.38854 0.01486,5.70359"
+         id="path158074" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 64.319889,157.38854 0.01486,5.70359"
+         id="path158076" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.726;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 71.711444,157.38854 0.01486,5.70359"
+         id="path158078" />
+      <path
+         id="path158277"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.725521;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 47.76654,135.47049 6.555969,6.56554 -6.555969,6.56553 -6.555941,-6.56553 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="47.795086"
+         y="143.57315"
+         id="text158281"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan158279"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="47.795086"
+           y="143.57315">s</tspan></text>
+      <path
+         id="path158296"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 35.312585,160.19946 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715878"
+         x="35.337143"
+         y="163.5345"
+         id="text158300"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan158298"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715878"
+           x="35.337143"
+           y="163.5345">g gc</tspan></text>
+      <path
+         id="path160915"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 42.746131,160.19943 3.139389,3.14397 -3.139389,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="42.774601"
+         y="163.53447"
+         id="text160919"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160917"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="42.774601"
+           y="163.53447">g gc</tspan></text>
+      <path
+         id="path160923"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 49.8437,160.19944 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="49.875912"
+         y="163.53447"
+         id="text160927"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160925"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="49.875912"
+           y="163.53447">g gc</tspan></text>
+      <path
+         id="path160931"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 57.025263,160.19943 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="57.061256"
+         y="163.53447"
+         id="text160935"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160933"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="57.061256"
+           y="163.53447">g gc</tspan></text>
+      <path
+         id="path160939"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 64.374816,160.19943 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="64.41468"
+         y="163.53447"
+         id="text160943"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160941"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="64.41468"
+           y="163.53447">g gc</tspan></text>
+      <path
+         id="path160947"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 71.808365,160.19944 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="71.852142"
+         y="163.53447"
+         id="text160951"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160949"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="71.852142"
+           y="163.53447">g gc</tspan></text>
+      <path
+         id="path160955"
+         style="fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 79.210413,160.17865 3.13939,3.14397 -3.13939,3.14397 -3.139378,-3.14397 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.87837px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+         x="79.258087"
+         y="163.5137"
+         id="text160959"
+         transform="scale(0.99947379,1.0005265)"><tspan
+           sodipodi:role="line"
+           id="tspan160957"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.87837px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.0715879"
+           x="79.258087"
+           y="163.5137">g gc</tspan></text>
+      <path
+         id="path126547"
+         style="font-variation-settings:normal;vector-effect:none;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 110.90735,135.47143 6.55596,6.56554 -6.55596,6.56553 -6.55594,-6.56553 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.9423px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="110.98777"
+         y="142.98595"
+         id="text126551"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan126549"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.9423px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="110.98777"
+           y="142.98595">gc</tspan></text>
+      <path
+         id="rect166212"
+         style="fill:#0662b4;fill-opacity:0.279503;stroke:#0662b4;stroke-width:0.321466;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 31.386094,108.54094 h 73.672886 v 59.66961 H 31.386094 Z" />
+      <g
+         id="g222173"
+         transform="matrix(0.01843908,0,0,0.01896283,28.283083,104.69885)"
+         style="stroke-width:51.4027">
+        <g
+           id="g224332"
+           style="stroke-width:51.4027">
+          <path
+             style="fill:#fffffd;fill-opacity:1;stroke-width:51.4027"
+             d="m 257.59326,461.24208 c -0.18377,-0.34446 -30.45835,-73.29549 -31.18368,-75.14166 -0.0715,-0.1819 -0.26626,-0.33073 -0.43287,-0.33073 -0.16661,0 -11.9706,11.66812 -26.23108,25.92917 -14.26049,14.26104 -26.07721,25.92916 -26.25939,25.92916 -0.26471,0 -0.33124,-21.12504 -0.33124,-105.17187 0,-83.99191 0.0666,-105.17188 0.33091,-105.17188 0.34611,0 144.66076,144.18304 144.66076,144.52883 0,0.10904 -16.04367,0.20008 -35.6526,0.20231 -20.68187,0.002 -35.8107,0.10411 -36.0291,0.24233 -0.30471,0.19286 2.73405,7.69567 15.94115,39.35923 8.9747,21.51653 16.31764,39.32608 16.31764,39.57678 0,0.33517 -2.66111,1.78674 -10.05281,5.48359 -5.52905,2.76526 -10.22783,5.02776 -10.44174,5.02776 -0.21391,0 -0.50008,-0.20836 -0.63595,-0.46302 z"
+             id="path222177"
+             sodipodi:nodetypes="sssssssscssssss" />
+          <path
+             style="fill:#040404;stroke-width:51.4027"
+             d="m 236.39641,444.80423 c -8.04532,-19.44488 -14.7341,-35.47032 -14.86395,-35.61209 -0.1462,-0.15961 -11.91995,11.42578 -30.92136,30.42666 l -30.68527,30.68442 V 332.45586 194.60851 l 95.25001,95.24972 c 52.3875,52.38735 95.25,95.33693 95.25,95.44351 0,0.10658 -18.95185,0.19701 -42.11522,0.20094 -23.16337,0.004 -42.16657,0.0585 -42.22934,0.12129 -0.0628,0.0628 6.61926,16.2759 14.84896,36.02917 8.22969,19.75327 14.8999,36.01727 14.82267,36.14222 -0.14156,0.22905 -39.361,19.9123 -42.85129,21.50599 l -1.87734,0.85722 z m 32.27454,11.87311 c 7.3917,-3.69685 10.05281,-5.14842 10.05281,-5.48359 0,-0.2507 -7.34294,-18.06025 -16.31764,-39.57678 -13.2071,-31.66356 -16.24586,-39.16637 -15.94115,-39.35923 0.2184,-0.13822 15.34723,-0.23998 36.0291,-0.24233 19.60893,-0.002 35.6526,-0.0933 35.6526,-0.20231 0,-0.34579 -144.31465,-144.52882 -144.66076,-144.52882 -0.26427,0 -0.33091,21.17996 -0.33091,105.17187 0,84.04683 0.0665,105.17187 0.33124,105.17187 0.18218,0 11.9989,-11.66812 26.25939,-25.92916 14.26048,-14.26105 26.06447,-25.92917 26.23108,-25.92917 0.16661,0 0.3614,0.14883 0.43287,0.33073 0.72533,1.84617 30.99991,74.7972 31.18368,75.14166 0.13587,0.25466 0.42204,0.46302 0.63595,0.46302 0.21391,0 4.91269,-2.2625 10.44174,-5.02776 z"
+             id="path222175" />
+        </g>
+      </g>
+      <path
+         id="path231191"
+         style="fill:#0662b4;fill-opacity:0.279503;stroke:#0662b4;stroke-width:0.325998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+         d="M 19.905861,73.397362 H 31.866305 V 85.357933 H 19.905861 Z"
+         inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\mock_highlight_example_legend.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.32724px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;opacity:1;vector-effect:none;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="25.920456"
+         y="80.391701"
+         id="text33251-5-5"
+         transform="scale(0.99947387,1.0005264)"
+         inkscape:export-filename="C:\Users\garfu\OneDrive - BYU-Idaho\Documents\GitHub\cse212_final\picture_files\node_example.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"><tspan
+           sodipodi:role="line"
+           id="tspan33249-3-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.32724px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+           x="25.920456"
+           y="80.391701">Subtree</tspan></text>
+      <path
+         style="fill:none;stroke:#d39727;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 4.2892382,87.32844 H 15.514559"
+         id="path243624" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.49929px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#713737;fill-opacity:1;stroke:#642919;stroke-width:0.209587;stroke-opacity:1"
+         x="19.686125"
+         y="93.790779"
+         id="text243730"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan243728"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.49929px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#713737;fill-opacity:1;stroke:#642919;stroke-width:0.209587;stroke-opacity:1"
+           x="19.686125"
+           y="93.790779">Root</tspan></text>
+      <path
+         id="path243732"
+         style="font-variation-settings:normal;vector-effect:none;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.372483;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000"
+         d="m 9.7676739,96.753535 3.3658401,3.370755 -3.3658351,3.37076 -3.3658453,-3.37077 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.49929px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';text-align:center;word-spacing:0px;text-anchor:middle;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.21;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="28.072157"
+         y="101.78971"
+         id="text243736"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan243734"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.49929px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#947114;fill-opacity:1;stroke:#7a5f14;stroke-width:0.21;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="28.072157"
+           y="101.78971">Inner Nodes</tspan></text>
+      <path
+         id="path256132"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.347422;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         d="m 9.7676739,104.69106 3.3658401,3.37078 -3.3658351,3.37076 -3.3658453,-3.37077 z" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.49929px;line-height:1.25;font-family:'Happy Halloween';-inkscape-font-specification:'Happy Halloween, Normal';font-variation-settings:normal;text-align:center;word-spacing:0px;text-anchor:middle;opacity:1;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+         x="21.882978"
+         y="109.72299"
+         id="text256136"
+         transform="scale(0.99947388,1.0005264)"><tspan
+           sodipodi:role="line"
+           id="tspan256134"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.49929px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:normal;fill:#358863;fill-opacity:1;stroke:#1c6e54;stroke-width:0.21;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1"
+           x="21.882978"
+           y="109.72299">Leaves</tspan></text>
+      <g
+         id="g259798"
+         transform="matrix(0.00633882,0,0,0.00651824,18.727674,71.965858)"
+         style="stroke-width:51.4027">
+        <g
+           id="g259796"
+           style="stroke-width:51.4027">
+          <path
+             style="fill:#fffffd;fill-opacity:1;stroke-width:51.4027"
+             d="m 257.59326,461.24208 c -0.18377,-0.34446 -30.45835,-73.29549 -31.18368,-75.14166 -0.0715,-0.1819 -0.26626,-0.33073 -0.43287,-0.33073 -0.16661,0 -11.9706,11.66812 -26.23108,25.92917 -14.26049,14.26104 -26.07721,25.92916 -26.25939,25.92916 -0.26471,0 -0.33124,-21.12504 -0.33124,-105.17187 0,-83.99191 0.0666,-105.17188 0.33091,-105.17188 0.34611,0 144.66076,144.18304 144.66076,144.52883 0,0.10904 -16.04367,0.20008 -35.6526,0.20231 -20.68187,0.002 -35.8107,0.10411 -36.0291,0.24233 -0.30471,0.19286 2.73405,7.69567 15.94115,39.35923 8.9747,21.51653 16.31764,39.32608 16.31764,39.57678 0,0.33517 -2.66111,1.78674 -10.05281,5.48359 -5.52905,2.76526 -10.22783,5.02776 -10.44174,5.02776 -0.21391,0 -0.50008,-0.20836 -0.63595,-0.46302 z"
+             id="path259792"
+             sodipodi:nodetypes="sssssssscssssss" />
+          <path
+             style="fill:#040404;stroke-width:51.4027"
+             d="m 236.39641,444.80423 c -8.04532,-19.44488 -14.7341,-35.47032 -14.86395,-35.61209 -0.1462,-0.15961 -11.91995,11.42578 -30.92136,30.42666 l -30.68527,30.68442 V 332.45586 194.60851 l 95.25001,95.24972 c 52.3875,52.38735 95.25,95.33693 95.25,95.44351 0,0.10658 -18.95185,0.19701 -42.11522,0.20094 -23.16337,0.004 -42.16657,0.0585 -42.22934,0.12129 -0.0628,0.0628 6.61926,16.2759 14.84896,36.02917 8.22969,19.75327 14.8999,36.01727 14.82267,36.14222 -0.14156,0.22905 -39.361,19.9123 -42.85129,21.50599 l -1.87734,0.85722 z m 32.27454,11.87311 c 7.3917,-3.69685 10.05281,-5.14842 10.05281,-5.48359 0,-0.2507 -7.34294,-18.06025 -16.31764,-39.57678 -13.2071,-31.66356 -16.24586,-39.16637 -15.94115,-39.35923 0.2184,-0.13822 15.34723,-0.23998 36.0291,-0.24233 19.60893,-0.002 35.6526,-0.0933 35.6526,-0.20231 0,-0.34579 -144.31465,-144.52882 -144.66076,-144.52882 -0.26427,0 -0.33091,21.17996 -0.33091,105.17187 0,84.04683 0.0665,105.17187 0.33124,105.17187 0.18218,0 11.9989,-11.66812 26.25939,-25.92916 14.26048,-14.26105 26.06447,-25.92917 26.23108,-25.92917 0.16661,0 0.3614,0.14883 0.43287,0.33073 0.72533,1.84617 30.99991,74.7972 31.18368,75.14166 0.13587,0.25466 0.42204,0.46302 0.63595,0.46302 0.21391,0 4.91269,-2.2625 10.44174,-5.02776 z"
+             id="path259794" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

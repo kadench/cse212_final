@@ -12,14 +12,65 @@
 
 
 ## **Introduction**
-What is a **tree**? In Python, a tree is a data structure that is used to store related and measurable data. For example, numbers have a measurable value. When storing numbers by their value in a **tree**, we find the **root** value, or the beginning of the tree. In the case of numbers, it's the number that will allow the most connections down in the line. The middle ground if you will. An easy way to visualize or see a tree in action is to look at your family tree. Each person is considered a **node** or an item that relates to the previous item in the tree:
+### What is a Tree?
+In Python, a **tree** is a data structure that is used to store related and measurable data. For example, numbers have a measurable value. When storing numbers by their value in a **tree**, we find the **root** value, or the beginning of the tree. In the case of numbers, it's the number that will allow the most connections down in the line. The middle ground if you will. An easy way to visualize or see a tree in action is to look at your family tree. Each person is considered a **node** or an item that relates to the previous item in the tree.
+
+### Family Tree Example:
+
+<div style="padding-top: 6px">
 <p align="center">
-  <img src="https://github.com/kadench/cse212_final/assets/144969637/1bcfd31f-808e-4e70-b6f0-c6ab2574156f" />
-<p align="center"><a href="https://www.worldhistory.org/image/16921/royal-house-of-hanover-in-britain-family-tree/">Queen Victoria's Family Tree</a> by: Simeon Netchev (Creative Commons License)</p>
+  <img src="https://github.com/kadench/cse212_final/assets/144969637/f74b6b68-c1be-44a3-8643-03de81240b04" height="360px"/>
+<p align="center"><strong>Family Tree Example</strong> by: Kaden Hansen</p>
 <p align="center"></p>
 </p>
+</div>
 
-A family tree is a bit different from a normal tree, but from the example above, we can pretend that the top most people (represented with gray diamonds) can be seen as the **root** or the beginning of that specific tree. Each person (or **node**) has an individual place in the tree. The root connects the **subtree** or their children's children. The **leaves** of a tree (the green diamonds) are at the end of the tree and cannot become a subtree as they are not connected to further things down the line.  
+A family tree, like the one above, is a bit different from a tree data structure, but it's still a good representation nonetheless. There is a pair of root nodes that branch downward. These root nodes (labeled with P) are the parents of the next generation. The **leaves** of a tree are at the end of the tree and cannot become a **subtree** as they are not connected to further things down the line. A subtree can only exist if there are parents and children after the last set of parents. A colored representation is shown 
+
+### Family Tree Legend:
+
+<div style="padding-top: 6px">
+<p align="center">
+  <img src="https://github.com/kadench/cse212_final/assets/144969637/f399b149-9ef0-486f-a886-eb2f36b807e6" height="440"/>
+<p align="center"></p>
+</p>
+<p align="center"><strong>Family Tree Legend</strong> by: Kaden Hansen (Stylistic fake cursor in image)</p>
+</div>
+
+The trees we're talking about will be and act a little differently. A **Binary Tree** has one root and each node that follows connects to two nodes at maximum. A `BST()` or **Binary Search Tree** is a formulated way that data can be placed into a tree. This is done by comparing the values existing in the tree already with the data presently being added to the tree. When we do this with numbers, we compare the new number to the root node in the tree.
+
+If the new number is greater than the root number, it moves down one level to the **right**. If the number is less than the root, it moves down one level to the **left**. It then compares itself to all the numbers in the tree, repeating this action until an empty space is found.
+
+### What is the Purpose of a Tree?
+The main purpose of any type of tree (data structure) is to organize data in a simple and searchable format. For example, when setting up a `BST()` up in this way (if balanced) has the Big O Notation of O(log n). This means that as we want to find if a number exists in the tree or add a new number, it cuts the search time in half every level gone down.
+
+If your stuck and need more of a guide, look at `9` (the root) in the image below. You're looking for `5`. If it is lower than the number you're on, move down one level to the left. If the number you're looking for is greater than the number you're on, move down one level to the right. When you've done it right, you should be on `5`.
+
+<div style="padding-top: 6px">
+<p align="center">
+  <img src="https://github.com/kadench/cse212_final/assets/144969637/3b91cf5f-e123-4860-a876-7d87dd5b625a"/>
+<p align="center"></p>
+</p>
+<p align="center"><strong>Finding 5 in the Given Tree</strong></p>
+</div>
+
+> **Note:** If you don't know what O(n) means, there's an [introduction](0-welcome.md#introduction--big-o-notation-or-on) on the welcome page.
+
+---
+
+### Common Tree Methods:
+(Click the names of each item to see an example use case.)
+
+| Class/Method Name                                        | Definition                                             | Performance |
+|:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
+| [`BST()`](2-set.md#additem-example)                      | Creates a new set                                      |   **Depend on Method**  |
+| [`.insert(item)`](2-set.md#additem-example)                 | Adds a unique item to a set                            |   **O(*log* n)**  |
+| [`.remove(item)`](2-set.md#removeitem-example)           | Removes a specified item from a set                    |   **O(1)**  |
+| [`.contains(set)`](2-set.md#unionset-example)               | Creates a set with the different items from both sets. |   **O(1)**  |
+| [`.height(set)`](2-set.md#intersectionset-example) | Creates a set with the common items from both sets.    |   **O(1)**  |
+| [`.empty()`](2-set.md#size-example)                       | Returns the size of a set as an int                    |   **O(1)**  |
+| [`.traverse_forward()`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
+| [`.traverse_backward()`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
