@@ -63,14 +63,15 @@ If your stuck and need more of a guide, look at `9` (the root) in the image belo
 
 | Class/Method Name                                        | Definition                                             | Performance |
 |:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
-| [`BST()`](2-set.md#additem-example)                      | Creates a new set                                      |   **Depend on Method**  |
-| [`.insert(item)`](2-set.md#additem-example)                 | Adds a unique item to a set                            |   **O(*log* n)**  |
-| [`.remove(item)`](2-set.md#removeitem-example)           | Removes a specified item from a set                    |   **O(1)**  |
-| [`.contains(set)`](2-set.md#unionset-example)               | Creates a set with the different items from both sets. |   **O(1)**  |
-| [`.height(set)`](2-set.md#intersectionset-example) | Creates a set with the common items from both sets.    |   **O(1)**  |
-| [`.empty()`](2-set.md#size-example)                       | Returns the size of a set as an int                    |   **O(1)**  |
-| [`.traverse_forward()`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
-| [`.traverse_backward()`](2-set.md#memberitem-example)           | Checks if a specified item is in a set                 |   **O(1)**  |
+| [`BST()`](2-set.md#additem-example)  | Creates a new BST                                      |   **Depend on Method**  |
+| [`.size()`](2-set.md#size-example)                   | Returns the size of the BST as an int                    |   **O(1)**  |
+| [`.empty()`](2-set.md#size-example)                   | Checks if BST is empty: True or False                  |   **O(1)**  |
+| [`.insert(node)`](2-set.md#additem-example)  | Inserts an item into the BST                           |   **O(*log* n)**  |
+| [`.remove(node)`](2-set.md#removeitem-example)  | Removes an item from the BST                    |   **O(*log* n)**  |
+| [`.contains(value)`](2-set.md#unionset-example)       | Checks if the BST contains a certain number  |   **O(*log* n)**  |
+| [`.height(node)`](2-set.md#intersectionset-example)    |  Returns the number of levels a number is from the root  |   **O(n)**  |
+| [`.traverse_forward()`](2-set.md#memberitem-example)  | Prints all numbers in a BST starting from the root to the end |   **O(n)**  |
+| [`.traverse_backward()`](2-set.md#memberitem-example) | Prints all numbers in a BST starting from the end to the root |   **O(n)**  |
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).

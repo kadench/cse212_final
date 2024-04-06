@@ -16,14 +16,21 @@
 ## Introduction | Big O Notation or (O)n
 When I first started this class, I had no idea what **Big O notation**, or **(O)n**, was. If you're like me, you'd probably need an introduction. **Big O Notation** is a mathematical representation of the amount of time or space a certain function will take to complete a certain task. There are many ways to complete a task with code, but it's the efficiently built ways that will take your code to the next level. As a class, we were told to graph different the lines that certain functions made. This makes it easier to visualize how much effort a function has to do to complete a task. I recommend you do the same as it will help you too. You can find common **(O)n** equations online.
 
+### Different Types of O(n):
+- **O(1)**: The needed result is found with only one execution of the function **(The best result)**.
+- **O(*log* n)**: The needed result is found by going through the data and cutting the load in half with every run.
+- **O(n)**: The needed result is found by iterating each piece of information through the function.
+- **O(n<sup>2</sup>)**: The needed result is found by running the given data through a function twice. **(Avoid)**
+
 ## Disclaimer 
 All code, teachings, examples, problems to solve, etc. found in this repository are created to one, fulfil the requirements of this class's final, and two, provide information about important coding fundamentals. Any similarity to existing code is coincidental and not intended. All sources used for this assignment will be placed in the works cited section of this assignment (found below). All code in this repository will be Python.
 
 ## Works Cited
-Website URL | Reason for Use
-:--------: | :--------:
-[Sky Prep](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | Quote used above
-[Code Academy](https://www.codecademy.com/resources/docs/markdown/tables) | Nav table formatting
+| Website URL                                                                             | Reason for Use |
+|:---------------------------------------------------------------------------------------:|:--------------:|
+| [Sky Prep](https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/) | Quote used above
+| [Code Academy](https://www.codecademy.com/resources/docs/markdown/tables)               | Nav table formatting
+| [w3schools](https://www.w3schools.io/file/markdown-super-sub-script/)                   | Finding the `<sup>` HTML tag |
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
