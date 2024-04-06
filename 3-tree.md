@@ -63,8 +63,8 @@ If your stuck and need more of a guide, look at `9` (the root) in the image belo
 
 | Class/Method Name                                        | Definition                                             | Performance |
 |:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
-| [`BST()`](2-set.md#additem-example)  | Creates a new BST                                      |   **Depend on Method**  |
-| [`.size()`](2-set.md#size-example)                   | Returns the size of the BST as an int                    |   **O(1)**  |
+| [`BST()`](3-tree.md#size-example)  | Creates a new BST                                      |   **Depend on Method**  |
+| [`.size()`](3-tree.md#size-example)                   | Returns the size of the BST as an int                    |   **O(1)**  |
 | [`.empty()`](2-set.md#size-example)                   | Checks if BST is empty: True or False                  |   **O(1)**  |
 | [`.insert(node)`](2-set.md#additem-example)  | Inserts an item into the BST                           |   **O(*log* n)**  |
 | [`.remove(node)`](2-set.md#removeitem-example)  | Removes an item from the BST                    |   **O(*log* n)**  |
@@ -72,6 +72,23 @@ If your stuck and need more of a guide, look at `9` (the root) in the image belo
 | [`.height(node)`](2-set.md#intersectionset-example)    |  Returns the number of levels a number is from the root  |   **O(n)**  |
 | [`.traverse_forward()`](2-set.md#memberitem-example)  | Prints all numbers in a BST starting from the root to the end |   **O(n)**  |
 | [`.traverse_backward()`](2-set.md#memberitem-example) | Prints all numbers in a BST starting from the end to the root |   **O(n)**  |
+
+## Tree Operations
+Down below is an example of each method found in the method table [above](3-tree.md#common-tree-methods):
+### *`.size()` Example:*
+```python
+1 # Make a new BST
+2 tree = BST()
+3
+4 #.. add or remove items from tree
+5
+6 print(f"The size of the current BST: {tree.size()}")
+```
+> The size of the current BST: 0
+
+Nothing was added to the `BST()` in this example, so the size of `tree` is `0`.
+
+---
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
