@@ -19,7 +19,7 @@ In Python, a **tree** is a data structure that is used to store related and meas
 
 <div style="padding-top: 6px">
 <p align="center">
-  <img src="https://github.com/kadench/cse212_final/assets/144969637/f74b6b68-c1be-44a3-8643-03de81240b04" height="360px"/>
+  <img style="max-height: 360px" src="https://github.com/kadench/cse212_final/assets/144969637/f74b6b68-c1be-44a3-8643-03de81240b04"/>
 <p align="center"><strong>Family Tree Example</strong> by: Kaden Hansen</p>
 <p align="center"></p>
 </p>
@@ -31,7 +31,7 @@ A family tree, like the one above, is a bit different from a tree data structure
 
 <div style="padding-top: 6px">
 <p align="center">
-  <img src="https://github.com/kadench/cse212_final/assets/144969637/f399b149-9ef0-486f-a886-eb2f36b807e6" height="440"/>
+  <img style="max-height: 440px" src="https://github.com/kadench/cse212_final/assets/144969637/f399b149-9ef0-486f-a886-eb2f36b807e6"/>
 <p align="center"></p>
 </p>
 <p align="center"><strong>Family Tree Legend</strong> by: Kaden Hansen (Stylistic fake cursor in image)</p>
@@ -80,8 +80,9 @@ Down below is an example of each method found in the method table [above](3-tree
 1 # Make a new BST
 2 tree = BST()
 3
-4 #.. add or remove items from tree
+4 # .. do what you need with the BST
 5
+6 # Use a formatted string to print tree's size
 6 print(f"The size of the current BST: {tree.size()}")
 ```
 > The size of the current BST: 0
@@ -90,6 +91,26 @@ Nothing was added to the `BST()` in this example, so the size of `tree` is `0`.
 
 ---
 
+### *`.empty()` Example:*
+```python
+1 # Make a BST
+2 tree = BST()
+3
+4 # .. do what you need with the BST
+5
+6 # Use a formatted string to print .empty's return.
+7 print(f"tree has contents: {tree.empty()}")
+```
+> tree has contents: False
+
+`tree` has no nodes inside of it, so the return is **False**. This method makes use of `.size()` which validates it against **0**. If the size of `tree` is **0**, `.empty()` will return True else, False.
+
+---
+### `.insert(node)`
+```python
+1 # Make a BST
+2 tree = BST()
+```
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
 
