@@ -107,7 +107,52 @@ Nothing was added to the `BST()` in this example, so the size of `tree` is `0`.
 
 ---
 ### `.insert(node)`
-As you probably know, with code, you need to tell the computer exactly what you want it to do. With the `.insert()` method, it's no different. The reason I bring this up is to talk about a new term you may not be familiar with: `recursion`. If you're familiar with what this is, or you just want to get the example, click [here]().
+As you probably know, with code, you need to tell the computer exactly what you want it to do. With the `.insert()` method, it's no different. The reason I bring this up is to talk about a new term you may not be familiar with: `recursion`. If you're familiar with what this is, or you just want to get the example (I'd encourage you to read it in this case), click [here](3-tree.md#insertnode-example).
+
+# Recursion
+**Recursion** is a useful tool that we can use in a lot of ways. I can even make a whole other lesson on this, but in short, we use recursion to repeatedly call on the same function inside itself to reduce code and increase space efficiencies. However, this recursion cannot occur infinitely and will end in a `RecursionError` if called too many times. Below is a quick example of recursion.
+### *Recursion Example*:
+```python
+1 def recursion_example():
+2    print("This is an example of recursion.")
+3    recursion_example() # Call the function repeatedly until the error occurs
+4 recursion_example() # Initiate the recursive action
+=================================================
+Recursion Example Result:
+This is an example of recursion.
+This is an example of recursion.
+This is an example of recursion. # repeated 997 more times
+RecursionError: maximum recursion depth exceeded while calling a Python object
+```
+
+To stop the `RecursionError` from happening, we need a **base case**, or a case, when met, that will stop the repeated call (before the recursion limit). This is a smaller case that will be met in order to keep the program running. A base case with the above example can look like this:
+
+### *Recursion Example (w/ Base Case)*:
+```python
+1 def recursion_example(MAX_RECURSE, recurse_index:int = 0):
+2     # Define the base case
+3     if recurse_index == MAX_RECURSE:
+4         return # Stop the recursion because the requested amount of prints have been reached
+5     
+6     # Define the recursive case
+7     else:
+8         print("This is an example of recursion.")
+9         recurse_index += 1 # Increase the recurse index to keep score of prints
+10        # Call the function repeatedly until the max recurse index is met.
+11        recursion_example(MAX_RECURSE, recurse_index) 
+12
+13 recursion_example(4) # Initiate the recursive action with a max recurse of 4
+=================================================
+Recursion Example (w/ Base Case) Result:
+This is an example of recursion.
+This is an example of recursion.
+This is an example of recursion.
+This is an example of recursion. # Stops at 4 recursions because of the base case
+```
+As you can see, a **base case** is implemented to stop the `recursion_example()` function from running too many times. In a simple, standard recursive function, we find a **base case** and a **recursive case**. The recursive part of the function will continue to run until the base case is met.
+> This was just a simple rundown of `recursion`. If you need more info, read the Python recursive walkthrough on [w3schools.com](https://www.w3schools.com/python/gloss_python_function_recursion.asp).
+
+
 ### *`.insert(node)` Example*
 ```python
 1 # Make a BST
@@ -116,6 +161,13 @@ As you probably know, with code, you need to tell the computer exactly what you 
 4 # Inserts 5 in the BST
 5 tree.insert(5)
 ```
+Now, you may be wondering why I rushed through the explanation of `recursion`, but I promise it is necessary. A tree uses recursion everywhere when fulfilling its tasks. I thought it fitting to put it before `.insert(node)` because when you **insert** a node into a tree, the function uses recursion to snugly fit the new node where it needs to go. (This will not be shown until the end.)
+
+---
+
+### *`.remove()` Example:*
+While `.insert()` finds an empty spot in the tree with the method described [above]().
+
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
 
