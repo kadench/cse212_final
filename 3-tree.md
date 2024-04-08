@@ -99,17 +99,22 @@ Nothing was added to the `BST()` in this example, so the size of `tree` is `0`.
 4 # .. do what you need with the BST
 5
 6 # Use a formatted string to print .empty's return.
-7 print(f"tree has contents: {tree.empty()}")
+7 print(f"There are no items in tree: {tree.empty()}")
 ```
-> tree has contents: False
+> There are no items in tree: True
 
-`tree` has no nodes inside of it, so the return is **False**. This method makes use of `.size()` which validates it against **0**. If the size of `tree` is **0**, `.empty()` will return True else, False.
+`tree` has no nodes inside of it, so the return is **True**. This method makes use of `.size()` which validates it against **0**. If the size of `tree` is **0**, `.empty()` will return True else, False.
 
 ---
 ### `.insert(node)`
+As you probably know, with code, you need to tell the computer exactly what you want it to do. With the `.insert()` method, it's no different. The reason I bring this up is to talk about a new term you may not be familiar with: `recursion`. If you're familiar with what this is, or you just want to get the example, click [here]().
+### *`.insert(node)` Example*
 ```python
 1 # Make a BST
 2 tree = BST()
+3
+4 # Inserts 5 in the BST
+5 tree.insert(5)
 ```
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
