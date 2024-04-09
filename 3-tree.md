@@ -165,8 +165,30 @@ Now, you may be wondering why I rushed through the explanation of `recursion`, b
 
 ---
 
+### *`.remove()`:*
+While `.insert()` and `.remove()` both use recursion to find a position in the tree, `.insert()` finds an empty spot in the tree with the method described [above](3-tree.md#what-is-the-purpose-of-a-tree) and places the new node there while `.remove()` has some special cases to reorganize the tree after the specific node has been deleted. Some of these are:
+
+| Things that need to happen after a node is removed | Result |
+|:--------------------------------------------------:|:------:|
+| **The node is a leaf** | You can just remove this without any reorganization |
+| **The node has one child** | The child takes the place of the parent. |
+| **The node has two children** | See below |
+
+When a parent node has two children, it gets a little more complicated. We need to one, make sure the tree stays structured and organized the with the lesser values gone on the left and the greater values to the right of a number at a given point.
+
 ### *`.remove()` Example:*
-While `.insert()` finds an empty spot in the tree with the method described [above]().
+```python
+1 # Make a BST
+2 tree = BST()
+3
+4 # Insert 15 into the BST
+5 tree.insert(15)
+6
+7 # Remove 15 from the BST
+8 tree.remove(15)
+```
+
+
 
 ## Contact
 Comments or questions are welcome! Please feel free to contact me through my [school email](mailto:han22047@byui.edu).
