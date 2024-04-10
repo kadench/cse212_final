@@ -64,7 +64,7 @@ If your stuck and need more of a guide, look at `9` (the root) in the image belo
 | Class/Method Name                                        | Definition                                             | Performance |
 |:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
 | [`BST()`](3-tree.md#bst-example)  | Creates a new BST                                      |   **Depend on Method**  |
-| [`.size()`](3-tree.md#size-examplee)                   | Returns the size of the BST as an int                    |   **O(1)**  |
+| [`.size()`](3-tree.md#size-example)                   | Returns the size of the BST as an int                    |   **O(1)**  |
 | [`.empty()`](3-tree.md#empty-example)                   | Checks if BST is empty: True or False                  |   **O(1)**  |
 | [`.insert(node)`](3-tree.md#insertnode-example)  | Inserts an item into the BST                           |   **O(*log* n)**  |
 | [`.remove(node)`](3-tree.md#remove-example)  | Removes an item from the BST                    |   **O(*log* n)**  |
