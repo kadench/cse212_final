@@ -47,7 +47,7 @@ The main purpose of any type of tree (data structure) is to organize data in a s
 If your stuck and need more of a guide, look at `9` (the root) in the image below. You're looking for `5`. If it is lower than the number you're on, move down one level to the left. If the number you're looking for is greater than the number you're on, move down one level to the right. When you've done it right, you should be on `5`.
 
 <div style="padding-top: 6px">
-<p align="center">
+<p align="center" id="bst-example">
   <img src="https://github.com/kadench/cse212_final/assets/144969637/3b91cf5f-e123-4860-a876-7d87dd5b625a"/>
 <p align="center"></p>
 </p>
@@ -63,15 +63,15 @@ If your stuck and need more of a guide, look at `9` (the root) in the image belo
 
 | Class/Method Name                                        | Definition                                             | Performance |
 |:--------------------------------------------------------:|:------------------------------------------------------:|:-----------:|
-| [`BST()`](3-tree.md#size-example)  | Creates a new BST                                      |   **Depend on Method**  |
-| [`.size()`](3-tree.md#size-example)                   | Returns the size of the BST as an int                    |   **O(1)**  |
-| [`.empty()`](2-set.md#size-example)                   | Checks if BST is empty: True or False                  |   **O(1)**  |
-| [`.insert(node)`](2-set.md#additem-example)  | Inserts an item into the BST                           |   **O(*log* n)**  |
-| [`.remove(node)`](2-set.md#removeitem-example)  | Removes an item from the BST                    |   **O(*log* n)**  |
-| [`.contains(value)`](2-set.md#unionset-example)       | Checks if the BST contains a certain number  |   **O(*log* n)**  |
-| [`.height(node)`](2-set.md#intersectionset-example)    |  Returns the number of levels a number is from the root  |   **O(n)**  |
-| [`.traverse_forward()`](2-set.md#memberitem-example)  | Prints all numbers in a BST starting from the root to the end |   **O(n)**  |
-| [`.traverse_backward()`](2-set.md#memberitem-example) | Prints all numbers in a BST starting from the end to the root |   **O(n)**  |
+| [`BST()`](3-tree.md#bst-example)  | Creates a new BST                                      |   **Depend on Method**  |
+| [`.size()`](3-tree.md#size-examplee)                   | Returns the size of the BST as an int                    |   **O(1)**  |
+| [`.empty()`](3-tree.md#empty-example)                   | Checks if BST is empty: True or False                  |   **O(1)**  |
+| [`.insert(node)`](3-tree.md#insertnode-example)  | Inserts an item into the BST                           |   **O(*log* n)**  |
+| [`.remove(node)`](3-tree.md#remove-example)  | Removes an item from the BST                    |   **O(*log* n)**  |
+| [`.contains(value)`](3-tree.md#remove-example)       | Checks if the BST contains a certain number  |   **O(*log* n)**  |
+| [`.height(node)`](3-tree.md#remove-example)    |  Returns the number of levels a number is from the root  |   **O(n)**  |
+| [`.traverse_forward()`](3-tree.md#remove-example)  | Prints all numbers in a BST starting from the root to the end |   **O(n)**  |
+| [`.traverse_backward()`](3-tree.md#remove-example) | Prints all numbers in a BST starting from the end to the root |   **O(n)**  |
 
 ## Tree Operations
 Down below is an example of each method found in the method table [above](3-tree.md#common-tree-methods):
