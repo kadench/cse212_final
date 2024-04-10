@@ -188,6 +188,7 @@ When a parent node has two children, it gets a little more complicated. We need 
 8 tree.remove(15)
 ```
 
+> I didn't have enough time to finish the assignment before the due date. This is because it took too long to put the other lessons together, and I am on a trip that has made it hard for me to finish this assignment. However, I do feel confident in the other two pages to have the whole thing be graded at this point.
 
 
 ## Contact
